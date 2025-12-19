@@ -1,0 +1,386 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(32, 34, 42);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Typography */
+h1 {
+    color: orange;
+    text-decoration: underline;
+    font-size: 50px;
+    font-weight: 800;
+    font-style: italic;
+    font-variant: small-caps;
+    text-align: center;
+    border: 5px solid green;
+    padding: 15px;
+    margin: 20px 10px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #4CAF50;
+    margin: 25px 0 15px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid rgba(76, 175, 80, 0.3);
+}
+
+h3 {
+    color: #FF9800;
+    margin: 20px 0 10px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #ccc;
+}
+
+/* Navigation */
+.navigation {
+    text-align: center;
+    margin: 25px 0;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.navigation a {
+    color: yellow;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+.navigation a:visited {
+    color: red;
+    text-decoration: line-through;
+}
+
+/* Lab Sections */
+.lab-section {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.03);
+    border-radius: 8px;
+    border-left: 5px solid #4CAF50;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+table, th, td {
+    border: 1px solid #555;
+}
+
+th {
+    background-color: rgba(76, 175, 80, 0.3);
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.Active {
+    background-color: rgba(76, 175, 80, 0.2);
+}
+
+tfoot td {
+    text-align: center;
+    font-style: italic;
+    color: #aaa;
+}
+
+/* Form Styles */
+.form-container {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+    margin: 25px 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #FF9800;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group input[type="email"],
+.form-group input[type="date"],
+.form-group input[type="color"] {
+    width: 100%;
+    max-width: 300px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #555;
+    background-color: #333;
+    color: white;
+}
+
+.form-group input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.form-buttons {
+    margin-top: 20px;
+}
+
+.form-buttons input {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.form-buttons input[type="button"] {
+    background-color: #FF9800;
+    color: black;
+}
+
+.form-buttons input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.form-buttons input:hover {
+    opacity: 0.9;
+}
+
+/* Box Model Example (Lab 6) */
+.pp {
+    width: 250px;
+    height: 250px;
+    overflow: auto;
+    border: 6px solid navy;
+    padding: 15px;
+    margin: 20px 0;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 5px;
+}
+
+/* Flexbox Example (Lab 6) */
+.flex-container {
+    background: rgba(0, 0, 255, 0.2);
+    padding: 20px;
+    display: flex;
+    height: 300px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.flex-item {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: rgba(255, 9, 9, 0.7);
+    font-size: 25px;
+    font-weight: 900;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* JavaScript Demo Area */
+.js-demo {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+    margin: 25px 0;
+}
+
+#js-output {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    border-radius: 5px;
+    margin: 15px 0;
+    min-height: 80px;
+    font-family: monospace;
+    white-space: pre-wrap;
+}
+
+.interactive-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.interactive-controls button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.interactive-controls button:hover {
+    background-color: #45a049;
+}
+
+.demo-result {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    border-radius: 5px;
+    margin: 15px 0;
+    font-family: monospace;
+    white-space: pre-wrap;
+}
+
+.temp-checker, .day-checker {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+.temp-checker input, .day-checker input {
+    padding: 8px;
+    margin: 0 10px;
+    border-radius: 4px;
+    border: 1px solid #555;
+    background-color: #333;
+    color: white;
+}
+
+.temp-checker button, .day-checker button {
+    padding: 8px 15px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.temp-checker button:hover, .day-checker button:hover {
+    background-color: #0b7dda;
+}
+
+#weather-result, #day-result {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+/* Image Styling */
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image-caption {
+    font-style: italic;
+    color: #aaa;
+    margin-top: 5px;
+}
+
+/* Code Styling */
+pre {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+    margin: 15px 0;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    color: #FF9800;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #555;
+    text-align: center;
+    color: #aaa;
+    font-size: 0.9em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    
+    h1 {
+        font-size: 36px;
+        padding: 10px;
+    }
+    
+    .container {
+        padding: 15px;
+    }
+    
+    .flex-container {
+        height: auto;
+        min-height: 300px;
+    }
+    
+    .flex-item {
+        width: 80px;
+        height: 80px;
+        font-size: 20px;
+    }
+    
+    .interactive-controls {
+        flex-direction: column;
+    }
+    
+    .interactive-controls button {
+        width: 100%;
+    }
+}

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web development lab exercises and examples">
+    <meta name="keywords" content="web development, HTML, CSS, JavaScript, labs">
+    <title>Web Development Labs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F009%2F759%2F649%2Foriginal%2Feps10-green-web-or-go-to-web-icon-isolated-on-white-background-globe-symbol-in-a-simple-flat-trendy-modern-style-for-your-website-design-logo-pictogram-ui-and-mobile-application-vector.jpg&f=1&nofb=1&ipt=7973e0bf0b6bb71d91e4a3a06d0b51276f12f901a3d1e318691bb8514446502b">
+</head>
+<body>
+    <div class="container">
+        <h1><em>Web Development Lab Exercises</em></h1>
+        <p class="subtitle">A comprehensive collection of web development examples</p>
+        
+        <nav class="navigation">
+            <a href="#lab1">Lab 1</a> |
+            <a href="#lab2">Lab 2</a> |
+            <a href="#lab6">Lab 6</a> |
+            <a href="#lab8">Lab 8</a> |
+            <a href="#lab9">Lab 9</a>
+        </nav>
+
+        <hr>
+
+        <!-- Lab 1 Content -->
+        <section id="lab1" class="lab-section">
+            <h2>Lab 1: HTML Basics</h2>
+            <p><u>Aspiring web developer</u></p>
+            <p> Welcome to my website! This is a simple paragraph created to test HTML formatting. 
+                You can use it to check text alignment,<b> font styles </b>, or paragraph spacing. 
+                Feel free to edit this text and experiment with different HTML tags! 
+            </p>
+
+            <div class="image-container">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.uBYsSL7JDekYP3VpxWZvYQHaHa%3Fcb%3D12%26pid%3DApi&f=1&ipt=337ca5767831ee1ecc2a495b0013fb4fa1ea0cb67fce803f06fe9aeb291a2c72&ipo=images" alt="Google Logo" width="100" height="100">
+                <p class="image-caption">Google Logo</p>
+            </div>
+
+            <h3>Find Online Resources</h3>
+            <ul>
+                <li><a href="https://www.w3schools.com/html/default.asp">Visit W3Schools</a></li>
+                <li><a href="https://web.dev/learn/html/">Web Dev</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Mozilla</a></li>
+            </ul>
+
+            <h3>Ordered List</h3>
+            <ol type="I" start="5" reversed>
+                <li>First item</li>
+                <li>Second item</li>
+                <li>Third item
+                    <ul>
+                        <li>Subitem 1</li>
+                        <li>Subitem 2</li>
+                    </ul>
+                </li>
+            </ol>
+
+            <h3>Definition List</h3>
+            <dl>
+                <dt>HTML</dt>
+                <dd>HyperText Markup Language</dd>
+                <dt>CSS</dt>
+                <dd>Cascading Style Sheets</dd>
+                <dt>JS</dt>
+                <dd>JavaScript</dd>
+            </dl>
+        </section>
+
+        <hr>
+
+        <!-- Lab 2 Content -->
+        <section id="lab2" class="lab-section">
+            <h2>Lab 2: Tables, Forms & Media</h2>
+            
+            <h3>Students Summary Table</h3>
+            <table>
+                <caption><strong>Students Summary</strong></caption>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>ID</th>
+                        <th colspan="2">Courses</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="Active">
+                        <td>Moustafa</td>
+                        <td>1519</td>
+                        <td>web</td>
+                        <td>cyber</td>
+                        <td rowspan="2">Active</td>
+                    </tr>
+                    <tr class="Active">
+                        <td>Adham</td>
+                        <td>2076</td>
+                        <td>networking</td>
+                        <td>database</td>
+                    </tr>
+                    <tr>
+                        <td>Tarke</td>
+                        <td>7036</td>
+                        <td colspan="2">Python</td>
+                        <td>Disable</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="5" align="center">End of Table</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <div class="form-container">
+                <h3>Sample Form</h3>
+                <form id="sample-form">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" required value="New User">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" required placeholder="Use strong password">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required placeholder="Enter your email">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="birthdate">Birthdate</label>
+                        <input type="date" id="birthdate" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="color">Favorite Color</label>
+                        <input type="color" id="color" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox" required> Are you a student?
+                        </label>
+                    </div>
+                    
+                    <div class="form-buttons">
+                        <input type="button" value="Fun" id="fun-button">
+                        <input type="submit" value="Login">
+                    </div>
+                </form>
+            </div>
+
+            <h3>Scientific Notation Examples</h3>
+            <p>Test for chemical equation: H<sub>2</sub> + O<sub>2</sub> → H<sub>2</sub>O</p>
+            <p>Test for geometric sequence: area of square is X<sup>2</sup></p>
+            
+            <h3>Text Formatting Examples</h3>
+            <p>What is the <abbr title="HyperText Markup Language"><strong>HTML</strong></abbr>?</p>
+            <q>NEVER GIVE UP</q>
+            <blockquote>"NEVER GIVE UP AGAIN"</blockquote>
+            
+            <h3>Code Example</h3>
+            <pre><code>name = input("Enter your name: ")
+print("Hello", name)</code></pre>
+        </section>
+
+        <hr>
+
+        <!-- Lab 6 Content -->
+        <section id="lab6" class="lab-section">
+            <h2>Lab 6: CSS Box Model & Flexbox</h2>
+            
+            <h3>Box Model Example</h3>
+            <div class="pp">
+                <h4>Scrollable Content Box</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vulputate turpis non arcu venenatis, a blandit nibh dapibus. Phasellus at urna nec elit fringilla vestibulum. Integer in massa eget nunc pharetra condimentum. Suspendisse potenti. Morbi mattis, mauris non tempor faucibus, lectus lorem fermentum lectus, id gravida nibh nunc nec odio. Sed eget sem id felis consectetur varius. Vivamus id consequat massa. Curabitur ac mauris vitae mauris porttitor ultricies. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam ac odio id augue lacinia sodales. Sed vel mi nec lorem facilisis gravida.</p>
+                <p>Additional content to demonstrate scrolling. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl eget ultricies tincidunt, nisl nisl aliquam nisl, eget ultricies nisl nisl eget nisl. Nullam auctor, nisl eget ultricies tincidunt, nisl nisl aliquam nisl, eget ultricies nisl nisl eget nisl.</p>
+            </div>
+            
+            <h3>Flexbox Example</h3>
+            <div class="flex-container">
+                <div class="flex-item">Item 1</div>
+                <div class="flex-item">Item 2</div>
+                <div class="flex-item">Item 3</div>
+                <div class="flex-item">Item 4</div>
+                <div class="flex-item">Item 5</div>
+                <div class="flex-item">Item 6</div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Lab 8 & 9 Content -->
+        <section id="lab8" class="lab-section">
+            <h2>Lab 8 & 9: JavaScript Fundamentals</h2>
+            
+            <div class="js-demo">
+                <h3>JavaScript Output</h3>
+                <div id="js-output"></div>
+                
+                <h3>Interactive JavaScript</h3>
+                <div class="interactive-controls">
+                    <button id="run-functions">Run JavaScript Functions</button>
+                    <button id="array-demo">Array Operations Demo</button>
+                    <button id="object-demo">Object Operations Demo</button>
+                    <button id="oop-demo">OOP Demo</button>
+                </div>
+                
+                <div id="demo-result" class="demo-result"></div>
+                
+                <h3>Temperature Checker</h3>
+                <div class="temp-checker">
+                    <label for="temperature">Enter Temperature (°C):</label>
+                    <input type="number" id="temperature" value="25">
+                    <button id="check-temp">Check Weather</button>
+                    <p id="weather-result"></p>
+                </div>
+                
+                <h3>Day of the Week</h3>
+                <div class="day-checker">
+                    <label for="day-number">Enter Day Number (1-7):</label>
+                    <input type="number" id="day-number" min="1" max="7" value="4">
+                    <button id="check-day">Get Day Name</button>
+                    <p id="day-result"></p>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="lab-section">
+            <h2>HTML Entities Examples</h2>
+            <p>Copyright: &copy;</p>
+            <p>Less than: &lt;</p>
+            <p>Greater than: &gt;</p>
+            <p>Ampersand: &amp;</p>
+            <p>Registered trademark: &reg;</p>
+        </section>
+
+        <footer>
+            <p>Web Development Labs &copy; <span id="current-year"></span> | All lab exercises consolidated into a single project</p>
+            <p>Console is active - check browser developer tools for JavaScript output</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
