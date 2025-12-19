@@ -157,4 +157,4 @@ Web Development Lab Exercises - Consolidated from multiple lab sessions
 
 You can view a live version of this project at: [GitHub Pages Link]
 
-*https://github.com/Mood5-SUT/Web-Lab/*
+*https://mood5-sut.github.io/Web-Lab/*
