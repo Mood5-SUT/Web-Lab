@@ -1,98 +1,93 @@
-Web Development Lab Exercises
+# Web Development Lab Exercises
 
 A consolidated collection of web development lab exercises covering HTML, CSS, and JavaScript fundamentals.
 
-📁 Project Structure
+## 📁 Project Structure
 
+```
 web-development-labs/
 ├── index.html          # Main HTML file with all content
 ├── style.css           # Consolidated CSS styles
 ├── script.js           # Consolidated JavaScript code
 └── README.md           # This file
+```
 
-🚀 Features
+## 🚀 Features
 
-HTML Elements Demonstrated
+### HTML Elements Demonstrated
+- **Semantic HTML5** (sections, headers, footers)
+- **Forms** with various input types (text, password, email, date, color, checkbox)
+- **Tables** with complex structures (rowspan, colspan)
+- **Lists** (ordered, unordered, definition)
+- **Media elements** (images, iframes, video)
+- **Text formatting** (bold, italic, underline, subscripts, superscripts)
+- **HTML entities** (copyright, less than, greater than)
 
-Semantic HTML5 (sections, headers, footers)
-Forms with various input types (text, password, email, date, color, checkbox)
-Tables with complex structures (rowspan, colspan)
-Lists (ordered, unordered, definition)
-Media elements (images, iframes, video)
-Text formatting (bold, italic, underline, subscripts, superscripts)
-HTML entities (copyright, less than, greater than)
+### CSS Features
+- **Flexbox layouts** with responsive design
+- **CSS Box Model** (margin, padding, border)
+- **Advanced selectors** (pseudo-classes, class selectors)
+- **Responsive design** with media queries
+- **Typography** (font families, weights, variants)
+- **Color systems** (RGB, RGBA, hex, named colors)
+- **Pseudo-classes** (:hover, :visited, :link)
 
-CSS Features
+### JavaScript Concepts
+- **Functions** (declaration, expression, arrow functions)
+- **Variables** (var, let, const) with scope demonstration
+- **Arrays** and array methods (push, pop, shift, unshift, splice)
+- **Objects** and object methods
+- **OOP** (constructors, prototypes, ES6 classes)
+- **JSON** (stringify, parse)
+- **DOM manipulation**
+- **Event handling**
+- **Type conversion** and coercion
 
-Flexbox layouts with responsive design
-CSS Box Model (margin, padding, border)
-Advanced selectors (pseudo-classes, class selectors)
-Responsive design with media queries
-Typography (font families, weights, variants)
-Color systems (RGB, RGBA, hex, named colors)
-Pseudo-classes (:hover, :visited, :link)
+## 🎯 How to Use
 
-JavaScript Concepts
+1. **Clone or download** the repository
+2. **Open `index.html`** in any modern web browser
+3. **Interact with the demos** using the buttons and forms
+4. **Check browser console** for additional JavaScript output
 
-Functions (declaration, expression, arrow functions)
-Variables (var, let, const) with scope demonstration
-Arrays and array methods (push, pop, shift, unshift, splice)
-Objects and object methods
-OOP (constructors, prototypes, ES6 classes)
-JSON (stringify, parse)
-DOM manipulation
-Event handling
-Type conversion and coercion
+### Interactive Features
+- **JavaScript Function Demos** - Test various JavaScript functions
+- **Array Operations** - See array manipulation in action
+- **Object Operations** - Explore JavaScript objects and methods
+- **OOP Examples** - Test object-oriented programming concepts
+- **Temperature Checker** - Conditional logic demonstration
+- **Day of Week Finder** - Switch statement example
 
-🎯 How to Use
-
-Clone or download the repository
-Open index.html in any modern web browser
-Interact with the demos using the buttons and forms
-Check browser console for additional JavaScript output
-
-Interactive Features
-
-JavaScript Function Demos - Test various JavaScript functions
-Array Operations - See array manipulation in action
-Object Operations - Explore JavaScript objects and methods
-OOP Examples - Test object-oriented programming concepts
-Temperature Checker - Conditional logic demonstration
-Day of Week Finder - Switch statement example
-
-📚 Learning Resources
+## 📚 Learning Resources
 
 The project includes links to:
+- [W3Schools](https://www.w3schools.com/html/default.asp)
+- [Web.dev](https://web.dev/learn/html/)
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
-W3Schools
-Web.dev
-MDN Web Docs
+## 🎨 Styling Highlights
 
-🎨 Styling Highlights
+- **Dark theme** with high contrast elements
+- **Responsive design** that works on mobile and desktop
+- **Interactive elements** with hover effects
+- **Clean, organized layout** with clear section separation
+- **Color-coded sections** for different lab exercises
 
-Dark theme with high contrast elements
-Responsive design that works on mobile and desktop
-Interactive elements with hover effects
-Clean, organized layout with clear section separation
-Color-coded sections for different lab exercises
+## 🔧 Technical Details
 
-🔧 Technical Details
+### Browser Compatibility
+- Chrome 60+
+- Firefox 55+
+- Safari 11+
+- Edge 79+
 
-Browser Compatibility
-
-Chrome 60+
-Firefox 55+
-Safari 11+
-Edge 79+
-
-No Dependencies
-
+### No Dependencies
 This project uses only vanilla HTML, CSS, and JavaScript with no external libraries or frameworks.
 
-📝 Code Examples Included
+## 📝 Code Examples Included
 
-HTML
-
+### HTML
+```html
 <!-- Tables with rowspan/colspan -->
 <table>
   <tr>
@@ -106,9 +101,10 @@ HTML
   <input type="email" required placeholder="Enter email">
   <input type="submit" value="Submit">
 </form>
+```
 
-CSS
-
+### CSS
+```css
 /* Flexbox layout */
 .container {
   display: flex;
@@ -123,9 +119,10 @@ CSS
     flex-direction: column;
   }
 }
+```
 
-JavaScript
-
+### JavaScript
+```javascript
 // Function examples
 function multiply(a, b) {
   return a * b;
@@ -138,26 +135,26 @@ const multiply = (a, b) => a * b;
 const numbers = [1, 2, 3];
 numbers.push(4); // [1, 2, 3, 4]
 numbers.pop();   // [1, 2, 3]
+```
 
-🤝 Contributing
+## 🤝 Contributing
 
 This is a consolidated educational project. Feel free to:
+1. Fork the repository
+2. Add more examples or improve existing ones
+3. Fix any issues you find
+4. Submit a pull request
 
-Fork the repository
-Add more examples or improve existing ones
-Fix any issues you find
-Submit a pull request
-
-📄 License
+## 📄 License
 
 Educational use - free to modify and distribute for learning purposes.
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Web Development Lab Exercises - Consolidated from multiple lab sessions
 
-🔗 Live Demo
+## 🔗 Live Demo
 
 You can view a live version of this project at: [GitHub Pages Link]
 
-https://github.com/Mood5-SUT/Web-Lab/
+*https://github.com/Mood5-SUT/Web-Lab/*
