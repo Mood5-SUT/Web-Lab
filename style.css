@@ -93,7 +93,7 @@ h3 {
 
 /* Table Styles */
 table {
-    width: 100%;
+    width: 98vw;
     border-collapse: collapse;
     margin: 20px 0;
     background-color: rgba(255, 255, 255, 0.05);
@@ -383,4 +383,5 @@ footer {
     .interactive-controls button {
         width: 100%;
     }
+
 }
